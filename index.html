@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="A layout example with a side menu that hides on mobile, just like the Pure website.">
+    <title>Loja de Andaime</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@2.1.0/build/pure-min.css"
+        integrity="sha384-yHIFVG6ClnONEA5yB5DJXfW2/KC173DIQrYoZMEtBvGzmf0PKiGyNEqe9N6BNDBH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@2.1.0/build/grids-responsive-min.css">
+</head>
+
+<body>
+    
+    <div id="layout">
+        <!-- Menu toggle -->
+        <a href="#menu" id="menuLink" class="menu-link">
+            <!-- Hamburger icon -->
+            <span></span>
+        </a>
+
+        <div id="menu">
+            <div class="pure-menu">
+                <a class="pure-menu-heading" href="#">Nome</a>
+
+                <ul class="pure-menu-list">
+
+                    <li class="pure-menu-item menu-item-divided pure-menu-selected"><a href="#" class="pure-menu-link">Inicio</a></li>
+                    <li class="pure-menu-item"><a href="pages/Cadastro.html" class="pure-menu-link">Cadastro</a></li>
+                    <a href="pages/Lista-de-Clientes.html" class="pure-menu-link">Lista de clientes</a>
+
+                    <li class="pure-menu-item"><a href="pages/Lista-de-Produtos.html" class="pure-menu-link">Lista de produtos</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="main">
+            <div class="header">
+                <h1>Bem vindo</h1>
+                <h2>Empresa</h2>
+            </div>
+
+            <div class="content">
+                <h2 class="content-subhead">Conteudo irá aqui</h2>
+                <p>
+                    Breve descrição do sistema ou da loja
+                </p>
+
+
+            </div>
+        </div>
+    </div>
+
+    <script src="js/ui.js"></script>
+
+</body>
+
+</html>
